@@ -1,6 +1,6 @@
 # copycat-brunch
 
- Inspired from copycat-brunch (which in turn is inspired from assetsmanager-brunch), this plugin makse a similar uses quickly-copy-file plugin.
+ Inspired from copycat-brunch (which in turn is inspired from assetsmanager-brunch), this plugin makes a similar uses quickly-copy-file plugin.
 
 install:
 ```nodejs
@@ -11,8 +11,9 @@ demo of use:
 ```javascript
 plugins:{
   copycat-brunch:{
-    "fonts":["bower_components\material-design-iconic-font", "bower_components\font-awesome"],
-    logging: true //shows each file that is copied to the destination directory
+    "fonts" : ["bower_components\\material-design-iconic-font", "bower_components\\font-awesome"],
+    "images": ["someDirectoryInProject", "bower_components\\some_package\\assets\\images"],
+    logging : true //shows each file that is copied to the destination directory
   }
 }
 ```
