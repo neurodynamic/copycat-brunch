@@ -1,6 +1,6 @@
 # copycat-brunch
 
- Inspired from copycat-brunch (which in turn is inspired from assetsmanager-brunch), this plugin makes a similar uses quickly-copy-file plugin.
+ Inspired from copyfilemon-brunch (which in turn is inspired from assetsmanager-brunch), this plugin makes a similar uses quickly-copy-file plugin.
 
 install:
 ```nodejs
