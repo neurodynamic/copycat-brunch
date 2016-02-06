@@ -10,9 +10,9 @@ npm i copycat-brunch
 demo of use:
 ```javascript
 plugins:{
-  copycat-brunch:{
-    "fonts" : ["bower_components\\material-design-iconic-font", "bower_components\\font-awesome"],
-    "images": ["someDirectoryInProject", "bower_components\\some_package\\assets\\images"],
+  copycat:{
+    "fonts" : ["bower_components/material-design-iconic-font", "bower_components/font-awesome/fonts"],
+    "images": ["someDirectoryInProject", "bower_components/some_package/assets/images"],
     verbose : true //shows each file that is copied to the destination directory
   }
 }
