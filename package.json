@@ -1,12 +1,12 @@
 {
-  "name": "copyfilemon-brunch",
-  "version": "3.0.0",
-  "description": "copy files to public, ideal for compiled from bower",
-  "author": "Álvaro Touzón (@kasselTrankos)",
-  "homepage": "https://github.com/kasselTrankos/copyfilemon-brunch",
+  "name": "copycat-brunch",
+  "version": "1.0.0",
+  "description": "Brunch plugin used to copy files to the set public directory, ideal for compiled bower components.",
+  "author": "Christian Melgarejo (@cmelgarejo)",
+  "homepage": "https://github.com/cmelgarejo/copycat-brunch",
   "repository": {
     "type": "git",
-    "url": "git@github.com:kasselTrankos/copyfilemon-brunch"
+    "url": "git@github.com:cmelgarejo/copycat-brunch"
   },
   "main": "./lib/index",
   "scripts": {
