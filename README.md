@@ -1,31 +1,24 @@
 # copyfilemon-brunch
 
- Inspired from assetsmanager-brunch, i make a similar uses quickly-copy-file plugin.
-
+ Inspired from copyfilemon-brunch (which in turn is inspired from assetsmanager-brunch), this plugin makse a similar uses quickly-copy-file plugin.
 
 install:
 ```nodejs
-npm i copyfilemon-brunch
+npm i copycat-brunch
 ```
 
 demo of use:
 ```javascript
 plugins:{
-  copyfilemon:{
-    "folderCopyToInPublic":["files", "foldercontent"]
+  copycat-brunch:{
+    "fonts":["bower_components\material-design-iconic-font", "bower_components\font-awesome"],
+    logging: true //shows each file that is copied to the destination directory
   }
 }
 ```
 As you can see in [brunch-docs](https://github.com/brunch/brunch/tree/master/docs), the default folder of your statics files is public, but you can prefer any other folder to do this.
 
-
 You can copy file by file, or if you desired copy a folder structure and files content.
-
-
-Gracias Ibañez por todos los grandes momentos
-http://es.mortadelo-y-filemn.wikia.com/wiki/Filem%C3%B3n
-https://es.wikipedia.org/wiki/Francisco_Ib%C3%A1%C3%B1ez
-
 
 ## License
 
