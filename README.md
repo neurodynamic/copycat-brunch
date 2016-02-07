@@ -10,7 +10,7 @@ npm i copycat-brunch
 demo of use:
 ```javascript
 plugins:{
-  copycat-brunch:{
+  copycat:{
     "fonts" : ["bower_components\\material-design-iconic-font", "bower_components\\font-awesome"],
     "images": ["someDirectoryInProject", "bower_components\\some_package\\assets\\images"],
     verbose : true //shows each file that is copied to the destination directory
@@ -25,8 +25,6 @@ You can copy file by file, or if you desired copy a folder structure and files c
 ## License
 
 The MIT License (MIT)
-
-Copyright (c) 2015 Paul Miller (http://paulmillr.com/)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the “Software”), to deal

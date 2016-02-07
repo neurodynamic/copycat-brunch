@@ -4,6 +4,7 @@
   "description": "Brunch plugin used to copy files to the set public directory, ideal for compiled bower components.",
   "author": "Christian Melgarejo (@cmelgarejo)",
   "homepage": "https://github.com/cmelgarejo/copycat-brunch",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git@github.com:cmelgarejo/copycat-brunch"
