@@ -13,7 +13,8 @@ plugins:{
   copycat:{
     "fonts" : ["bower_components/material-design-iconic-font", "bower_components/font-awesome/fonts"],
     "images": ["someDirectoryInProject", "bower_components/some_package/assets/images"],
-    verbose : true //shows each file that is copied to the destination directory
+    verbose : true, //shows each file that is copied to the destination directory
+    onlyChanged: true //only copy a file if it's mtime has changed (only effective when using watch)
   }
 }
 ```
