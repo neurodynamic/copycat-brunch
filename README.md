@@ -11,14 +11,10 @@ demo of use:
 ```javascript
 plugins:{
   copycat:{
-<<<<<<< HEAD
-    "fonts" : ["bower_components\\material-design-iconic-font", "bower_components\\font-awesome"],
-    "images": ["someDirectoryInProject", "bower_components\\some_package\\assets\\images"],
-=======
     "fonts" : ["bower_components/material-design-iconic-font", "bower_components/font-awesome/fonts"],
     "images": ["someDirectoryInProject", "bower_components/some_package/assets/images"],
->>>>>>> dab5cba2b51bfc4195cf891dce8d91236e29dc73
-    verbose : true //shows each file that is copied to the destination directory
+    verbose : true, //shows each file that is copied to the destination directory
+    onlyChanged: true //only copy a file if it's modified time has changed (only effective when using brunch watch)
   }
 }
 ```
