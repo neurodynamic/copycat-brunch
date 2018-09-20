@@ -14,9 +14,9 @@
     "test": "node_modules/.bin/mocha"
   },
   "dependencies": {
+    "loggy": "^1.0.4",
     "mkdirp": "^0.5.1",
-    "quickly-copy-file": "^0.1.0",
-    "loggy": "~0.2.2"
+    "quickly-copy-file": "^0.1.0"
   },
   "devDependencies": {}
 }
